@@ -22,8 +22,6 @@ public class Digits2Letters {
         char hch[];
         char lch[];
         if (num >= 0 && num <= 99) {
-            char[] chars = Integer.toString(num).toCharArray();
-            //System.out.println("Input: arr[] = {"+chars[0]+","+chars[1]+"}");
             if (num == 10){
                 resultStr += "exit";
             } else {
